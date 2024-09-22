@@ -11,6 +11,6 @@ document.getElementById('btn-login').addEventListener('click', function(event){
     }
     else
     {
-        console.log('Please enter correct phone or pin');
+        alert('Please enter correct phone or pin');
     }
 })
